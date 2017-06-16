@@ -1,0 +1,12 @@
+ <div class="fulllist" ng-click="changecontacturl(3)" ng-repeat="data in username" id="{{data.name}}" ng-controller="detailedlistcontroller">
+   
+       <div> <img class="birthday-icon" ng-src="birthday.png"/></div>
+        <div class="sub-content" ng-click="new()">
+            <div class="content-div"  ng-click="change()">{{data.name}}({{data.age}})</div>
+            <span>#####</span>
+        </div>
+        <div class="date">
+            <div style="padding:5px">{{ data.DOB.slice(3,5) }}</div>
+            <span class="month">{{ data.DOB.slice(0,2) | date : "MM" }}</span>
+        </div>
+    </div>

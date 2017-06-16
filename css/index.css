@@ -1,0 +1,393 @@
+.splash {
+  display: none;
+}
+
+[ng-cloak].splash {
+  
+  display: block !important;
+}
+.button{
+  float: right;
+  border-radius: 5px;
+    width: 74px;
+    border: 1px solid white;
+    background-color: white;
+}
+.content{
+    display: flex;
+    width: 70%;
+    margin-left: 52px;
+    padding-top: 50px;
+}
+.repeat{
+  padding-top: 50px;
+  opacity:0.8;
+  color: azure;
+}
+ .image-content{
+width: 48%;
+ }
+ .file-icon{
+       width: 87%;
+    margin-top: 16px;
+ }
+ .header-content{
+ font-family:monospace;
+ font-weight: 100;
+ }
+ .main-content{
+  background: -webkit-linear-gradient(#4E69B0, #6A5EA8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#4E69B0, #6A5EA8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#4E69B0, #6A5EA8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4E69B0, #6A5EA8);
+    color:white;
+    height: 100%;
+ }
+ .list-header{
+   height: 30px;
+  border: 1px solid white;
+ }
+ .segmant{
+  height:100px;
+}
+body{
+  margin: 0px;
+}
+header{
+  color:white;
+    background:#386fab;
+    border:2px solid #CCC;
+    border-radius:3px;
+}
+h2{
+ margin-left:12px;
+ display: inline-block;
+  }
+.add-icon{
+    margin-top: 12px;
+    float: right;
+    margin-right: 10px;
+    width: 44px;
+}
+.birthday-icon{
+    margin-top: 12px;
+    width: 50px;
+    margin-left: 5px;
+}
+.content1{
+
+ 
+  box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+  display: flex;
+
+}
+.content-div{
+  padding-top: 26px;
+    /* width: 30%; */
+    padding-left: 7px;
+    /* padding: 26px 7px; */
+    font-size: x-large;
+    font-style: italic;
+    font-family: monospace;
+    font-weight: 600;
+        word-wrap: break-word;
+}
+/*span{
+  margin-left: 10px;
+}*/
+.sub-content{
+  width: 61%;
+}
+.date{
+ background: #28425e;
+     width:23%; 
+    color: whitesmoke;
+    font-weight: 800;
+    border: 6px solid whitesmoke;
+      box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+}
+.month{
+  font-size: 28px;
+}
+/*tional: Makes the sample page fill the window. */
+
+
+
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  -webkit-transition: left 0.4s ease-in-out;
+  -moz-transition: left 0.4s ease-in-out;
+  -ms-transition: left 0.4s ease-in-out;
+  -o-transition: left 0.4s ease-in-out;
+  transition: left 0.4s ease-in-out;
+}
+
+.container.open-sidebar { left: 280px; }
+
+.swipe-area {
+  position: absolute;
+  width: 50px;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 2;
+}
+
+#sidebar {
+ 
+  position: absolute;
+  width: 280px;
+  height: 100%;
+  left: -280px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+#sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#sidebar ul li { margin: 0; }
+.header-div{
+ 
+   height: 50px;
+    background: -o-linear-gradient(right, #4E69B0, #6A5EA8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #4E69B0, #6A5EA8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #4E69B0 , #6A5EA8);
+}
+#sidebar ul li a {
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 100;
+  color: white;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #6A5EA8;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -ms-transition: background 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+#sidebar ul li:hover a { background: #6A5EA8; }
+
+.extra-content {
+  width: 100%;
+  height: 100%;
+
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  position: relative;
+}
+.content2{
+  height: 100%;
+}
+.extra-content .content2 {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   position: absolute;
+  width: 100%;
+  
+}
+
+.extra-content .content2 h1 { font-weight: 100; }
+
+.extra-content .content2 p {
+  width: 100%;
+  line-height: 160%;
+}
+ul{
+  background: #4E69B0;
+  height: 100%
+}
+.extra-content #sidebar-toggle {
+ background:#4E69B0;
+  border-radius: 3px;
+  margin-left:3px;
+  display: block;
+  position: relative;
+  padding: 10px 7px;
+  float: left;
+  z-index: 3;
+}
+
+.extra-content #sidebar-toggle .bar {
+  display: block;
+  width: 18px;
+  margin-bottom: 3px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 1px;
+}
+
+#nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
+ 
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+  
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+
+
+#nav-icon1.open span:nth-child(1) {
+  top: 18px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+#nav-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+#nav-icon1.open span:nth-child(3) {
+  top: 18px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.accordion {
+ 
+    cursor: pointer;
+    
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.bdy-header{
+  margin-left: 53px;
+    font-size: 22px;
+    color: white;
+    font-family: cursive;
+    padding-top: 6px;
+}
+.fulllist{
+      display: flex;
+   
+    padding-top: 50px;
+
+}
+.ptag{
+  margin:0;
+  padding-top: 42px;
+font-family: 'Satisfy', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+.DOBtag{
+  margin:0;
+   font-size: 22px;
+  
+  text-align: center;
+  font-family: 'Lobster Two', cursive;
+}
+.upper-content{
+  color:white;
+    
+}
+.inner-round{
+    width: 53%;
+    /* margin-left: 84px; */
+    /* margin-top: 37px; */
+    margin: 0 auto;
+    padding-top: 9px;
+    border-radius: 50%;
+    background-color: white;
+}
+.image-class{
+      height: 117px;
+      padding-top: 26px;
+   
+}
+.img-tag{
+      width: 89%;
+    padding-left: 11px;
+    border-radius: 50%;
+}
+.backgrnd{
+ background: linear-gradient(to right, #4E69B0 , #6A5EA8);
+}
+.lower-right-content{
+    width: 45%;
+    float: right;
+    border-left: 1px solid black;
+}
+.lower-left-content{
+    width: 50%;
+}
+.lower-right-image{
+    opacity: 0.9;
+    padding-left: 25px;
+    width: 62%;
+}
+.lower-left-image{
+    width: 100%;
+}
+.lower-content{
+      display: flex;
+    width: 75%;
+    padding-top: 61px;
+    margin: 0 auto;
+}
+.pnewtag{
+     padding-left: 52px;
+    color: mediumpurple;
+    font-family: fantasy;
+    margin: 0 auto;
+    font-size: 30px;
+}
+.create-header{
+ background: linear-gradient( #4E69B0 , #6A5EA8);
+ height: 100%;
+ color: white;
+ font-size: 28px;
+}
+.create-header input{
+  background: transparent;
+  border: none;
+  color:white;
+}
+.editor{
+  padding:10px;
+}
+hr{
+  margin: 0px;
+}
+input:focus{
+    outline: none;
+}
+.button{
+border: none;
+width: 100%;
+margin-top: 25px;
+}

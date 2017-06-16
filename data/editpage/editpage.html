@@ -1,0 +1,9 @@
+
+  <tr ng-repeat="x in directivesList.issues | filter :  get">
+     
+    <td>{{ x.id}}</td>
+    <td>{{ x.author.name }}</td>
+    <td>{{ x.project.name}}</td>
+     <td>{{ x.status.name}}</td>
+    
+  </tr>

@@ -1,0 +1,36 @@
+
+    <div class="main-content">
+        
+        <a href="#/list"><button class="button">sign</button></a>
+        <div class="content">
+           <div class="image-content">
+                 <a href="#/create" ><img class="file-icon" src="register-add.png"/></a>
+            </div>
+            <div class="header-content">
+                <h2>Create your birthday list</h2>
+            </div>
+        </div>
+        <div class="repeat">
+            <h2>Today birthday</h2>
+            <div ng-repeat="x in username">
+                <div class="content1" ng-if="( x.DOB.slice(0,5) )==(todaydate | date:'MM/dd')">
+                     <div> <img class="birthday-icon" ng-src="birthday.png"/></div>
+                        <div class="sub-content">
+                          <div class="content-div">{{x.name}}({{x.age}})</div>
+                          <!--<span>3days left</span>-->
+                        </div>
+                     <!--<div class="date">
+                         <div style="padding:5px">15</div>
+                         <span class="month">Jun</span>
+                     </div>-->
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+<!--<div class="segmant" ng-repeat="data in username">
+    {{data}}
+ </div>-->

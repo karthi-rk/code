@@ -1,0 +1,36 @@
+<div class="container " ng-controller="createpagecontroller">
+        <div id="sidebar">
+          <div ng-class="{get:ster == true}">
+          <ul>
+              <li ><a >Menu</a></li>
+            <li ng-click="changecontacturl(2)"><a >MyList</a></li>
+           
+            <li ng-click="changecontacturl(0)"><a>create new</a></li>
+            <li ng-click="changecontacturl(1)" class="panel23"><a >edit</a></li>
+           
+          </ul>
+        </div>
+        </div>
+        <div class="extra-content">
+          <div class="swipe-area">
+            
+          </div>
+          <div class="content2">
+              <div class="header-div">
+                 <div class="bdy-header">{{headers}}</div>
+              </div>
+                  <div  ng-include = ' urls '></div>
+                  <!--Content here-->
+       
+            </div>
+          <a data-toggle=".container" id="sidebar-toggle">
+            <div id="nav-icon1">
+             <span class="bar"></span> 
+             <span class="bar"></span> 
+             <span class="bar"></span> 
+            </div>
+          </a>
+          
+        </div>
+      
+</div>
